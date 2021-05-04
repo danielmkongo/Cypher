@@ -1,6 +1,7 @@
 #include<iostream>
 #include "cypher.hpp"
 
+
 int main() {
     //declare and initialize a cypher object.
     cypher code="Lousy donkey!";
@@ -16,7 +17,10 @@ int main() {
     //display the string on the console.
     std::cout << "\n\n" << code;
 
+    //Store the value of a cypher object in a string variable.
+    std::string decodedString = code.c_str();
 
+    std::cout << decodedString;
     std::cin.get();
 
 }
